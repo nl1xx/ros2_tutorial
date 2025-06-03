@@ -1,0 +1,140 @@
+Panels:
+  - Class: rviz_common/Displays
+    Help Height: 78
+    Name: Displays
+    Property Tree Widget:
+      Expanded:
+        - /Global Options1
+        - /TF1/Frames1
+        - /RobotModel1
+      Splitter Ratio: 0.5
+    Tree Height: 600 # 调整这个值以适应你的屏幕
+  - Class: rviz_common/Views
+    Expanded:
+      - /Current View1
+    Name: Views
+    Splitter Ratio: 0.5
+  - Class: rviz_common/Time
+    Experimental: false
+    Name: Time
+    SyncMode: 0
+    SyncSource: ""
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Alpha: 0.5
+      Cell Size: 1
+      Class: rviz_default_plugins/Grid
+      Color: 160; 160; 164
+      Enabled: true
+      Line Style:
+        Line Width: 0.03
+        Value: Lines
+      Name: Grid
+      Normal Cell Count: 0
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Plane: XY
+      Plane Cell Count: 10
+      Reference Frame: <Fixed Frame>
+      Value: true
+    - Class: rviz_default_plugins/TF
+      Enabled: true
+      Frame Timeout: 15
+      Frames:
+        # 以下是一些示例，RViz会自动列出所有可用的TF帧
+        # 确保你关心的帧被勾选了 (默认通常是全部勾选)
+        actual_end_effector_link:
+          Value: true
+        base_link:
+          Value: true
+        fk_calculated_end_effector:
+          Value: true
+        # 你可能还有其他的连杆，比如 link_1, link_2 等，它们也应该显示
+        # <your_robot_link_1_name>: # 替换为你的连杆名
+        #   Value: true
+        # <your_robot_link_2_name>:
+        #   Value: true
+      Marker Scale: 0.3 # 调整坐标轴的大小
+      Name: TF
+      Show Arrows: true
+      Show Axes: true
+      Show Names: true
+      Tree:
+        base_link:
+          actual_end_effector_link:
+            {}
+          fk_calculated_end_effector:
+            {}
+          # <your_robot_link_1_name>: # 替换为你的连杆名
+          #   <your_robot_link_2_name>:
+          #     {}
+      Update Interval: 0
+      Value: true
+    - Alpha: 1
+      Class: rviz_default_plugins/RobotModel
+      Collision Enabled: false
+      Description File: ""
+      Description Source: Topic
+      Description Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /robot_description # 确保这个话题名称与你的robot_state_publisher一致
+      Enabled: true
+      Name: RobotModel
+      TF Prefix: ""
+      Update Interval: 0
+      Value: true
+      Visual Enabled: true
+  Enabled: true
+  Global Options:
+    Background Color: 48; 48; 48
+    Fixed Frame: base_link # !! 重要: 设置为你的机器人基座坐标系 !!
+    Frame Rate: 30
+  Name: root
+  Tools:
+    - Class: rviz_default_plugins/Interact
+      Hide Inactive Objects: true
+    - Class: rviz_default_plugins/MoveCamera
+    - Class: rviz_default_plugins/Select
+  Value: true
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit # 或者使用 "FPS" 等其他视图控制器
+      Distance: 3.5 # 调整初始观察距离
+      Enable Stereo Rendering:
+        Stereo Eye Separation: 0.06
+        Stereo Focal Distance: 1
+        Swap Stereo Eyes: false
+        Value: false
+      Focal Point:
+        X: 0.1
+        Y: 0.1
+        Z: 0.1
+      Focal Shape Fixed Size: true
+      Focal Shape Size: 0.05
+      Invert Z Axis: false
+      Name: Current View
+      Near Clip Distance: 0.01
+      Pitch: 0.6 # 调整初始视角俯仰角
+      Roll: 0
+      Target Frame: <Fixed Frame> # 通常与 Global Options Fixed Frame 一致
+      Value: Orbit (rviz)
+      Yaw: 0.78 # 调整初始视角偏航角
+    Saved: ~
+Window Geometry:
+  Displays:
+    collapsed: false
+  Height: 1026 # 调整为你希望的RViz窗口高度
+  Hide Left Dock: false
+  Hide Right Dock: false
+  QMainWindow State: 000000ff00000000fd00000004000000000000015c000003a6fc0200000008fb000000120054006f006f006c00730000000000ffffffff0000000000000000
+  Views:
+    collapsed: false
+  Width: 1850 # 调整为你希望的RViz窗口宽度
+  X: 65 # 调整RViz窗口在屏幕上的X位置
+  Y: 24  # 调整RViz窗口在屏幕上的Y位置

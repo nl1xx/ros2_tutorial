@@ -32,10 +32,10 @@
             </joint>
         </ros2_control>
     </xacro:macro>
-    <gazebo>
+    <!-- <gazebo>
         <plugin name="gz_ros2_control" filename="libgz_ros2_control-system.so">
             <parameters>$(find moveit_resources_panda_moveit_config)/config/ros2_controllers.yaml</parameters>
         </plugin>
-    </gazebo>
+    </gazebo> -->
 
 </robot>

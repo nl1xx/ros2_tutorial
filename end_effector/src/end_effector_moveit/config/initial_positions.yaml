@@ -1,0 +1,5 @@
+# Default initial positions for end_effector's ros2_control fake system
+
+initial_positions:
+  left_part_joint: 0
+  right_part_joint: 0

@@ -1,0 +1,33 @@
+[0.594s] Invoking command in '/home/promise/end_effector/build/custom_end_effector': PYTHONPATH=/home/promise/end_effector/build/custom_end_effector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/promise/end_effector/install/custom_end_effector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/promise/end_effector/build/custom_end_effector/build --no-deps symlink_data
+[0.859s] running develop
+[0.974s] running egg_info
+[0.974s] creating custom_end_effector.egg-info
+[0.974s] writing custom_end_effector.egg-info/PKG-INFO
+[0.974s] writing dependency_links to custom_end_effector.egg-info/dependency_links.txt
+[0.975s] writing entry points to custom_end_effector.egg-info/entry_points.txt
+[0.977s] writing requirements to custom_end_effector.egg-info/requires.txt
+[0.977s] writing top-level names to custom_end_effector.egg-info/top_level.txt
+[0.977s] writing manifest file 'custom_end_effector.egg-info/SOURCES.txt'
+[0.977s] reading manifest file 'custom_end_effector.egg-info/SOURCES.txt'
+[0.978s] writing manifest file 'custom_end_effector.egg-info/SOURCES.txt'
+[0.981s] running build_ext
+[0.981s] Creating /home/promise/end_effector/install/custom_end_effector/lib/python3.10/site-packages/custom-end-effector.egg-link (link to .)
+[0.981s] 
+[0.981s] Installed /home/promise/end_effector/build/custom_end_effector
+[0.982s] running symlink_data
+[0.982s] creating /home/promise/end_effector/install/custom_end_effector/share/ament_index
+[0.982s] creating /home/promise/end_effector/install/custom_end_effector/share/ament_index/resource_index
+[0.982s] creating /home/promise/end_effector/install/custom_end_effector/share/ament_index/resource_index/packages
+[0.982s] symbolically linking /home/promise/end_effector/build/custom_end_effector/resource/custom_end_effector -> /home/promise/end_effector/install/custom_end_effector/share/ament_index/resource_index/packages
+[0.982s] symbolically linking /home/promise/end_effector/build/custom_end_effector/package.xml -> /home/promise/end_effector/install/custom_end_effector/share/custom_end_effector
+[0.984s] creating /home/promise/end_effector/install/custom_end_effector/share/custom_end_effector/launch
+[0.984s] symbolically linking /home/promise/end_effector/build/custom_end_effector/launch/gazebo.launch.py -> /home/promise/end_effector/install/custom_end_effector/share/custom_end_effector/launch
+[0.984s] symbolically linking /home/promise/end_effector/build/custom_end_effector/launch/display.launch.py -> /home/promise/end_effector/install/custom_end_effector/share/custom_end_effector/launch
+[0.984s] creating /home/promise/end_effector/install/custom_end_effector/share/custom_end_effector/config
+[0.984s] symbolically linking /home/promise/end_effector/build/custom_end_effector/config/controller.yaml -> /home/promise/end_effector/install/custom_end_effector/share/custom_end_effector/config
+[0.985s] creating /home/promise/end_effector/install/custom_end_effector/share/custom_end_effector/rviz
+[0.985s] creating /home/promise/end_effector/install/custom_end_effector/share/custom_end_effector/urdf
+[0.985s] symbolically linking /home/promise/end_effector/build/custom_end_effector/urdf/end_effector.xacro -> /home/promise/end_effector/install/custom_end_effector/share/custom_end_effector/urdf
+[0.985s] symbolically linking /home/promise/end_effector/build/custom_end_effector/urdf/end_effector_ros2_control.xacro -> /home/promise/end_effector/install/custom_end_effector/share/custom_end_effector/urdf
+[0.985s] symbolically linking /home/promise/end_effector/build/custom_end_effector/urdf/end_effector_description.xacro -> /home/promise/end_effector/install/custom_end_effector/share/custom_end_effector/urdf
+[0.998s] Invoked command in '/home/promise/end_effector/build/custom_end_effector' returned '0': PYTHONPATH=/home/promise/end_effector/build/custom_end_effector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/promise/end_effector/install/custom_end_effector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/promise/end_effector/build/custom_end_effector/build --no-deps symlink_data

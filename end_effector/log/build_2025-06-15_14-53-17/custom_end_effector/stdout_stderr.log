@@ -1,0 +1,31 @@
+running develop
+running egg_info
+creating custom_end_effector.egg-info
+writing custom_end_effector.egg-info/PKG-INFO
+writing dependency_links to custom_end_effector.egg-info/dependency_links.txt
+writing entry points to custom_end_effector.egg-info/entry_points.txt
+writing requirements to custom_end_effector.egg-info/requires.txt
+writing top-level names to custom_end_effector.egg-info/top_level.txt
+writing manifest file 'custom_end_effector.egg-info/SOURCES.txt'
+reading manifest file 'custom_end_effector.egg-info/SOURCES.txt'
+writing manifest file 'custom_end_effector.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/promise/end_effector/install/custom_end_effector/lib/python3.10/site-packages/custom-end-effector.egg-link (link to .)
+
+Installed /home/promise/end_effector/build/custom_end_effector
+running symlink_data
+creating /home/promise/end_effector/install/custom_end_effector/share/ament_index
+creating /home/promise/end_effector/install/custom_end_effector/share/ament_index/resource_index
+creating /home/promise/end_effector/install/custom_end_effector/share/ament_index/resource_index/packages
+symbolically linking /home/promise/end_effector/build/custom_end_effector/resource/custom_end_effector -> /home/promise/end_effector/install/custom_end_effector/share/ament_index/resource_index/packages
+symbolically linking /home/promise/end_effector/build/custom_end_effector/package.xml -> /home/promise/end_effector/install/custom_end_effector/share/custom_end_effector
+creating /home/promise/end_effector/install/custom_end_effector/share/custom_end_effector/launch
+symbolically linking /home/promise/end_effector/build/custom_end_effector/launch/gazebo.launch.py -> /home/promise/end_effector/install/custom_end_effector/share/custom_end_effector/launch
+symbolically linking /home/promise/end_effector/build/custom_end_effector/launch/display.launch.py -> /home/promise/end_effector/install/custom_end_effector/share/custom_end_effector/launch
+creating /home/promise/end_effector/install/custom_end_effector/share/custom_end_effector/config
+symbolically linking /home/promise/end_effector/build/custom_end_effector/config/controller.yaml -> /home/promise/end_effector/install/custom_end_effector/share/custom_end_effector/config
+creating /home/promise/end_effector/install/custom_end_effector/share/custom_end_effector/rviz
+creating /home/promise/end_effector/install/custom_end_effector/share/custom_end_effector/urdf
+symbolically linking /home/promise/end_effector/build/custom_end_effector/urdf/end_effector.xacro -> /home/promise/end_effector/install/custom_end_effector/share/custom_end_effector/urdf
+symbolically linking /home/promise/end_effector/build/custom_end_effector/urdf/end_effector_ros2_control.xacro -> /home/promise/end_effector/install/custom_end_effector/share/custom_end_effector/urdf
+symbolically linking /home/promise/end_effector/build/custom_end_effector/urdf/end_effector_description.xacro -> /home/promise/end_effector/install/custom_end_effector/share/custom_end_effector/urdf

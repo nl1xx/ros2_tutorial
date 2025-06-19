@@ -1,0 +1,8 @@
+source;share/end_effector_moveit/hook/cmake_prefix_path.ps1
+source;share/end_effector_moveit/hook/cmake_prefix_path.dsv
+source;share/end_effector_moveit/hook/cmake_prefix_path.sh
+source;share/end_effector_moveit/local_setup.bash
+source;share/end_effector_moveit/local_setup.dsv
+source;share/end_effector_moveit/local_setup.ps1
+source;share/end_effector_moveit/local_setup.sh
+source;share/end_effector_moveit/local_setup.zsh

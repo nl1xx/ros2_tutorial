@@ -1,0 +1,54 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/promise/end_effector/build/end_effector_moveit
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/promise/end_effector/install/end_effector_moveit/share/ament_index/resource_index/package_run_dependencies/end_effector_moveit
+-- Symlinking: /home/promise/end_effector/install/end_effector_moveit/share/ament_index/resource_index/parent_prefix_path/end_effector_moveit
+-- Symlinking: /home/promise/end_effector/install/end_effector_moveit/share/end_effector_moveit/environment/ament_prefix_path.sh
+-- Symlinking: /home/promise/end_effector/install/end_effector_moveit/share/end_effector_moveit/environment/ament_prefix_path.dsv
+-- Symlinking: /home/promise/end_effector/install/end_effector_moveit/share/end_effector_moveit/environment/path.sh
+-- Symlinking: /home/promise/end_effector/install/end_effector_moveit/share/end_effector_moveit/environment/path.dsv
+-- Symlinking: /home/promise/end_effector/install/end_effector_moveit/share/end_effector_moveit/local_setup.bash
+-- Symlinking: /home/promise/end_effector/install/end_effector_moveit/share/end_effector_moveit/local_setup.sh
+-- Symlinking: /home/promise/end_effector/install/end_effector_moveit/share/end_effector_moveit/local_setup.zsh
+-- Symlinking: /home/promise/end_effector/install/end_effector_moveit/share/end_effector_moveit/local_setup.dsv
+-- Symlinking: /home/promise/end_effector/install/end_effector_moveit/share/end_effector_moveit/package.dsv
+-- Symlinking: /home/promise/end_effector/install/end_effector_moveit/share/ament_index/resource_index/packages/end_effector_moveit
+-- Symlinking: /home/promise/end_effector/install/end_effector_moveit/share/end_effector_moveit/cmake/end_effector_moveitConfig.cmake
+-- Symlinking: /home/promise/end_effector/install/end_effector_moveit/share/end_effector_moveit/cmake/end_effector_moveitConfig-version.cmake
+-- Symlinking: /home/promise/end_effector/install/end_effector_moveit/share/end_effector_moveit/package.xml
+-- Symlinking: /home/promise/end_effector/install/end_effector_moveit/share/end_effector_moveit/launch/demo.launch.py
+-- Symlinking: /home/promise/end_effector/install/end_effector_moveit/share/end_effector_moveit/launch/move_group.launch.py
+-- Symlinking: /home/promise/end_effector/install/end_effector_moveit/share/end_effector_moveit/launch/moveit_rviz.launch.py
+-- Symlinking: /home/promise/end_effector/install/end_effector_moveit/share/end_effector_moveit/launch/rsp.launch.py
+-- Symlinking: /home/promise/end_effector/install/end_effector_moveit/share/end_effector_moveit/launch/setup_assistant.launch.py
+-- Symlinking: /home/promise/end_effector/install/end_effector_moveit/share/end_effector_moveit/launch/spawn_controllers.launch.py
+-- Symlinking: /home/promise/end_effector/install/end_effector_moveit/share/end_effector_moveit/launch/static_virtual_joint_tfs.launch.py
+-- Symlinking: /home/promise/end_effector/install/end_effector_moveit/share/end_effector_moveit/launch/warehouse_db.launch.py
+-- Symlinking: /home/promise/end_effector/install/end_effector_moveit/share/end_effector_moveit/config/end_effector.ros2_control.xacro
+-- Symlinking: /home/promise/end_effector/install/end_effector_moveit/share/end_effector_moveit/config/end_effector.srdf
+-- Symlinking: /home/promise/end_effector/install/end_effector_moveit/share/end_effector_moveit/config/end_effector.urdf.xacro
+-- Symlinking: /home/promise/end_effector/install/end_effector_moveit/share/end_effector_moveit/config/initial_positions.yaml
+-- Symlinking: /home/promise/end_effector/install/end_effector_moveit/share/end_effector_moveit/config/joint_limits.yaml
+-- Symlinking: /home/promise/end_effector/install/end_effector_moveit/share/end_effector_moveit/config/kinematics.yaml
+-- Symlinking: /home/promise/end_effector/install/end_effector_moveit/share/end_effector_moveit/config/moveit.rviz
+-- Symlinking: /home/promise/end_effector/install/end_effector_moveit/share/end_effector_moveit/config/moveit_controllers.yaml
+-- Symlinking: /home/promise/end_effector/install/end_effector_moveit/share/end_effector_moveit/config/pilz_cartesian_limits.yaml
+-- Symlinking: /home/promise/end_effector/install/end_effector_moveit/share/end_effector_moveit/config/ros2_controllers.yaml
+-- Symlinking: /home/promise/end_effector/install/end_effector_moveit/share/end_effector_moveit/.setup_assistant

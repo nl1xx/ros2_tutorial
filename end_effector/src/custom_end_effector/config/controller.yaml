@@ -1,0 +1,23 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 10
+    use_sim_time: true
+    joint_state:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+    left_controller:
+      type: effort_controllers/JointGroupEffortController
+
+    right_controller:
+      type: effort_controllers/JointGroupEffortController
+
+
+left_controller:
+  ros__parameters:
+    joints:
+      - left_part_joint
+
+right_controller:
+  ros__parameters:
+    joints:
+      - right_part_joint

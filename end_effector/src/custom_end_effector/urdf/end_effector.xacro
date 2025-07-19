@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro"  name="end_effector">
+
+  <xacro:include filename="end_effector_description.xacro"/>
+  <xacro:include filename="end_effector_ros2_control.xacro"/>
+  
+  <!--显式触发ROS2控制配置生成的关键步骤，确保机器人的控制接口和硬件插件正确集成到URDF中-->
+  <xacro:end_effector_ros2_control/>
+
+</robot>

@@ -1,0 +1,14 @@
+running develop
+running egg_info
+writing custom_end_effector.egg-info/PKG-INFO
+writing dependency_links to custom_end_effector.egg-info/dependency_links.txt
+writing entry points to custom_end_effector.egg-info/entry_points.txt
+writing requirements to custom_end_effector.egg-info/requires.txt
+writing top-level names to custom_end_effector.egg-info/top_level.txt
+reading manifest file 'custom_end_effector.egg-info/SOURCES.txt'
+writing manifest file 'custom_end_effector.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/promise/end_effector/install/custom_end_effector/lib/python3.10/site-packages/custom-end-effector.egg-link (link to .)
+
+Installed /home/promise/end_effector/build/custom_end_effector
+running symlink_data

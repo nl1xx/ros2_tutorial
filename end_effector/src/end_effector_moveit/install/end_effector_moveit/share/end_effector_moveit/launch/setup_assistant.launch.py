@@ -1,0 +1,1 @@
+/home/promise/end_effector_moveit/launch/setup_assistant.launch.py

@@ -1,0 +1,1 @@
+/home/promise/end_effector_moveit/build/end_effector_moveit/ament_cmake_environment_hooks/local_setup.bash

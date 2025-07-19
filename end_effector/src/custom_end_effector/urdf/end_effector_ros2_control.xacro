@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <xacro:macro name='end_effector_ros2_control'>
+        <ros2_control name='wmm_hardware_interface' type='system'>
+            <hardware>
+                <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+            </hardware>
+
+            <joint name="left_part_joint">
+                <command_interface name="effort"/>
+                <command_interface name="position"/>
+                <command_interface name="velocity"/>
+                
+                <state_interface name="position"/>
+                <state_interface name="velocity"/>
+                <state_interface name="effort"/>
+            </joint>
+
+            <joint name="right_part_joint">
+                <command_interface name="effort"/>
+                <command_interface name="position"/>
+                <command_interface name="velocity"/>
+                
+                <state_interface name="position"/>
+                <state_interface name="velocity"/>
+                <state_interface name="effort"/>
+            </joint>
+        </ros2_control>
+
+        <gazebo>
+            <plugin filename='libgazebo_ros2_control.so' name='gazebo_ros2_control'>
+                <parameters>
+                    $(find custom_end_effector)/config/controller.yaml
+                </parameters>
+            </plugin>
+        </gazebo>
+    </xacro:macro>
+</robot>

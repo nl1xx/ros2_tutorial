@@ -1,0 +1,9 @@
+source;share/custom_end_effector/hook/pythonpath.ps1
+source;share/custom_end_effector/hook/pythonpath.dsv
+source;share/custom_end_effector/hook/pythonpath.sh
+source;share/custom_end_effector/hook/ament_prefix_path.ps1
+source;share/custom_end_effector/hook/ament_prefix_path.dsv
+source;share/custom_end_effector/hook/ament_prefix_path.sh
+source;../../build/custom_end_effector/share/custom_end_effector/hook/pythonpath_develop.ps1
+source;../../build/custom_end_effector/share/custom_end_effector/hook/pythonpath_develop.dsv
+source;../../build/custom_end_effector/share/custom_end_effector/hook/pythonpath_develop.sh

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0"?>
 <robot name="simple_robot">
   <!-- 基座连杆 -->
@@ -62,4 +63,70 @@
     <origin xyz="0.4 0 0" rpy="0 0 0"/>
     <limit lower="-3.14" upper="3.14" effort="10" velocity="1"/>
   </joint>
+=======
+<?xml version="1.0"?>
+<robot name="simple_robot">
+  <!-- 基座连杆 -->
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <box size="0.2 0.2 0.01"/>
+      </geometry>
+    </visual>
+  </link>
+
+  <!-- 第一个连杆 -->
+  <link name="link1">
+    <visual>
+      <geometry>
+        <cylinder length="0.5" radius="0.05"/>
+      </geometry>
+    </visual>
+  </link>
+
+  <!-- 第一个关节 -->
+  <joint name="joint1" type="revolute">
+    <parent link="base_link"/>
+    <child link="link1"/>
+    <axis xyz="1 0 0"/>
+    <origin xyz="0 0 0.05" rpy="0 0 0"/>
+    <limit lower="-3.14" upper="3.14" effort="10" velocity="1"/>
+  </joint>
+
+  <!-- 第二个连杆 -->
+  <link name="link2">
+    <visual>
+      <geometry>
+        <cylinder length="0.4" radius="0.04"/>
+      </geometry>
+    </visual>
+  </link>
+
+  <!-- 第二个关节 -->
+  <joint name="joint2" type="revolute">
+    <parent link="link1"/>
+    <child link="link2"/>
+    <axis xyz="1 0 0"/>
+    <origin xyz="0.5 0 0" rpy="0 0 0"/>
+    <limit lower="-3.14" upper="3.14" effort="10" velocity="1"/>
+  </joint>
+
+  <!-- 第三个连杆 -->
+  <link name="link3">
+    <visual>
+      <geometry>
+        <cylinder length="0.3" radius="0.03"/>
+      </geometry>
+    </visual>
+  </link>
+
+  <!-- 第三个关节 -->
+  <joint name="joint3" type="revolute">
+    <parent link="link2"/>
+    <child link="link3"/>
+    <axis xyz="1 0 0"/>
+    <origin xyz="0.4 0 0" rpy="0 0 0"/>
+    <limit lower="-3.14" upper="3.14" effort="10" velocity="1"/>
+  </joint>
+>>>>>>> 20f8e51d558ac903605a46ec3db2554ae42e5131
 </robot>
